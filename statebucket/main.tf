@@ -35,7 +35,7 @@ locals {
 # S3 Bucket for Terraform state
 ###############################################################################
 resource "aws_s3_bucket" "state" {
-  bucket        = "${data.aws_caller_identity.current.account_id}-build-state-bucket-cicd-setup"
+  bucket        = "${data.aws_caller_identity.current.account_id}-build-state-bucket-cicd"
   force_destroy = true
 
   tags = local.tags
