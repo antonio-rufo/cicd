@@ -13,6 +13,6 @@ Terraform code to create you the default VPC.
 
 | Name | Description |
 |------|-------------|
-| subnet_az1 | The ID of Subnet in AZ1. |
-| subnet_az2 | The ID of Subnet in AZ2. |
-| subnet_az3 | The ID of Subnet in AZ3. |
+| subnet\_az1 | The ID of Subnet in AZ1. |
+| subnet\_az2 | The ID of Subnet in AZ2. |
+| subnet\_az3 | The ID of Subnet in AZ3. |
