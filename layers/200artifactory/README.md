@@ -11,7 +11,8 @@ Terraform code to create your Artifactory resource.
 | source\_address | Whitelisted source address to allow to connect to Artifactory. | string | `"0.0.0.0/0"` | no |
 | instance\_type | Artifactory EC2 instance type. | string | `"t2.medium"` | no |
 | key\_name | Key name of the Key Pair to use for the Artifactory instance. | string | `n/a` | no |
-| user\_data | The user data to provide when launching the instance. | `string` | `null` | no
+| user\_data | The user data to provide when launching the instance. | `string` | `null` | no |
+| ami\_centos | CentOS7 AMI ID. This is dependent on the Region. | string | `n/a` | no |
 
 ## Outputs
 
